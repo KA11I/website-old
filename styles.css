@@ -15,15 +15,15 @@ body{
 
 }
 
-a{
-    color: #ffffff;
-    text-decoration: none;
-}
 /* section 1 */
 .section-1{
     text-align: center;
   }
 
+
+.section-1 a{
+    color: #ffffff;
+}
 .section-1 p{
     font-size: 1.1rem;
     padding-bottom: 10px;
@@ -46,6 +46,15 @@ a{
     padding-top: 35%;
 }
 
+.section-2 a{
+    color: #F1F952;
+    text-decoration: none;
+}
+
+
+
+
+
 
 /* media queres */
 @media(max-width:780px){
@@ -53,10 +62,11 @@ a{
         grid-template-columns: 1fr;
     }
     .section-1{
-        padding: 0;
+        padding-left: 50%;
     }
     .section-2{
-        padding: 0;
-        padding-left: 1.5rem;
+        padding-right: 50%;
     }
 }
+
+
