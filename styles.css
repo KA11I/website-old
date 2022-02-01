@@ -41,6 +41,11 @@ body{
     padding: 10px;
 }
 
+.section-1 img{
+    height: auto;
+    width: auto;
+}
+
 /* section 2 */
 .section-2{
     width: 70%;
