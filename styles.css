@@ -1,0 +1,26 @@
+  .heading {
+    top: 0px;
+    left: 100px;
+    color: #f1f952;
+    position: absolute;
+    font-size: 5em;
+    align-self: flex-start;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+  }
+  .image {
+    top: 150px;
+    left: 100px;
+    width: 357px;
+    height: 477px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .aboutme {
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
