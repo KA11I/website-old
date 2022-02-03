@@ -45,6 +45,7 @@ body{
 .section-1 img{
     width: auto;
     height: 100%;
+    max-width: 100%;
 }
 
 /* section 2 */
