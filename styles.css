@@ -15,12 +15,7 @@ body{
 
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
+  
 /* section 1 */
 .section-1{
     text-align: center;
