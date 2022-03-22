@@ -104,7 +104,7 @@ body{
 /* section 1 */
 .section-1{
     text-align: center;
-    height: 75%;
+    height: max;
   }
 
 
@@ -136,7 +136,7 @@ body{
 /* section 2 */
 .section-2{
     width: 70%;
-    height: 75%;
+    height: max;
     padding-top: 35%;
 }
 
