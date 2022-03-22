@@ -22,7 +22,10 @@ body{
         padding-top: 2rem;
     
   }
-  
+
+.resume a{
+    color: #F1F952;
+    text-decoration: none;} 
 /* section 1 */
 .section-1{
     text-align: center;
