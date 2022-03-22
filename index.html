@@ -2,18 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KA11I</title>
     <link rel="icon" href="https://emojitool.com/img/apple/ios-14.5/p-button-3028.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
-<body>
+<script>
+    var i = 0;
+    var txt = "Hey, I'm Karl...";
+    var speed = 100;
+    function typewriter() {
+        if (i < txt.length) {
+            document.getElementById("title").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typewriter, speed);
+        }
+    }
+</script>
+<body onload="typewriter()">
     <div class="grid-2">
         <div class="section-1">
             <h1>KA11I</h1>
-            <img alt="image" src="ka11i.png" class="image"/>
+            <a href="https://youtu.be/zMtj4yJKuzk"><img alt="image" src="ka11i.png" class="image"/><a>
             <p>Bavaria, Germany</p>
             <a href="https://discord.gg/S22UbR9"><i class="fab fa-discord"></i></a>
             <a href="https://www.instagram.com/_ka11i_"><i class="fab fa-instagram"></i></a>
@@ -21,7 +34,7 @@
             <a href="https://twitter.com/KA11I_"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="section-2">
-            <h1>Hey, I'm Karl...</h1>
+            <h1 id="title"></h1>
             <p>
                 A student and wannabe video editor & motion graphic designer located in Germany. My main hobbies are video editing, programming, <a href="https://en.wikipedia.org/wiki/Cardistry">cardistry</a>, playing the piano, and playing video games. <br><br>Check out my <a href="portfolio.html">portfolio</a>!
              </p>
