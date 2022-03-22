@@ -27,7 +27,6 @@ body{
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
   padding: 10px 10px 10px 10px;
 }
 
@@ -48,7 +47,7 @@ body{
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(127, 249, 0);
 }
 
 .nav > #nav-check {
