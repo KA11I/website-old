@@ -19,7 +19,7 @@ body{
 /* section 1 */
 .section-1{
     text-align: center;
-    height: max;
+    height: 75%;
   }
 
 
@@ -51,7 +51,6 @@ body{
 /* section 2 */
 .section-2{
     width: 70%;
-    height: max;
     padding-top: 35%;
 }
 
@@ -67,10 +66,12 @@ body{
     }
     .section-1{
         padding:0;
+        padding-top: 5rem;
     }
     .section-2{
         padding: 0;
         padding-left: 1.5rem;
+        padding-top: 2rem;
     }
 }
 /* global */
