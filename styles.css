@@ -86,7 +86,6 @@ body{
         padding-top: 2rem;
     }
 }
-
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -94,7 +93,6 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-
 
 body{
     margin: 0;
@@ -105,4 +103,55 @@ body{
 
 }
 
+/* section 1 */
+.section-1{
+    text-align: center;
+  }
 
+
+.section-1 a{
+    color: #ffffff;
+}
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h1{
+    color: #F1F952;
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+/* section 2 */
+.section-2{
+    width: 70%;
+    padding-top: 35%;
+}
+
+.section-2 a{
+    color: #F1F952;
+    text-decoration: none;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
