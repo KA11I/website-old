@@ -10,7 +10,19 @@
     <link rel="icon" href="https://emojitool.com/img/apple/ios-14.5/p-button-3028.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
-<body>
+<script>
+    var i = 0;
+    var txt = "Hey, I'm Karl...";
+    var speed = 100;
+    function typewriter() {
+        if (i < txt.length) {
+            document.getElementById("title").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typewriter, speed);
+        }
+    }
+</script>
+<body onload="typewriter()">
     <div class="grid-2">
         <div class="section-1">
             <h1>KA11I</h1>
@@ -22,7 +34,7 @@
             <a href="https://twitter.com/KA11I_"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="section-2">
-            <h1>Hey, I'm Karl...</h1>
+            <h1 id="title"></h1>
             <p>
                 A student and wannabe video editor & motion graphic designer located in Germany. My main hobbies are video editing, programming, <a href="https://en.wikipedia.org/wiki/Cardistry">cardistry</a>, playing the piano, and playing video games. <br><br>Check out my <a href="portfolio.html">portfolio</a>!
              </p>
