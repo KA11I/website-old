@@ -12,19 +12,17 @@
     <body>
         <div class="contact">
             <a href="https://ka11i.com/"><i class="fa-solid fa-house"></i> About Me</a>
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+<h1>Elegant Contact Form</h1>
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
 </form>
         </div>
     </body>
