@@ -2,7 +2,7 @@
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "ka11i-business@protonmail.com";
+    $email_to = "ka11i-Business@protonmail.com";
     $email_subject = "New form submissions";
 
     function problem($error)
