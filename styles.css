@@ -8,23 +8,6 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-body {
-    margin: 100%;
-    padding: 100%;
-    font-family: "Roboto", sans-serif;
-    background-color: #020202;
-    color: #ffffff;
-}
-
-.resume {
-    padding-left: 2rem;
-    padding-top: 2rem;
-}
-
-.resume a {
-    color: #f1f952;
-    text-decoration: none;
-}
 
 
 /* section 1 */
