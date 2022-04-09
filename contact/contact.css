@@ -3,6 +3,10 @@
 
 
 body { background:#020202; }
+.contact {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
 .contact a { color: #f1f952;}
 .contact form { max-width:420px; margin:50px auto; }
 
