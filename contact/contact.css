@@ -5,6 +5,7 @@ body { background:#020202; }
 .contact p {
     padding-left: 2rem;
     padding-top: 2rem;
+    font-family: "Roboto", sans-serif;
 }
 .contact a { color: #f1f952; text-decoration: none;}
 .contact form { max-width:420px; margin:50px auto; }
