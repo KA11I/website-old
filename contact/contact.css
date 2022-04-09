@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 
-body { background:#020202; }
+body { background:#020202; font-family: "Roboto", sans-serif;
+}
 .contact p {
     padding-left: 2rem;
     padding-top: 2rem;
-    font-family: "Roboto", sans-serif;
 }
 .contact a { color: #f1f952; text-decoration: none;}
 .contact h1 {
