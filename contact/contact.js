@@ -1,5 +1,5 @@
 var i = 0;
-var txt = "Send me a message!";
+var txt = "Contact Karl!";
 var speed = 100;
 function typewriter() {
     if (i < txt.length) {
