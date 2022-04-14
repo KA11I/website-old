@@ -1,9 +1,13 @@
 /* global */
 
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    height: 50%;
+    top: 20%;
+    position: absolute;
 }
 
 
@@ -12,30 +16,20 @@
 
 .section-1 {
     text-align: center;
-    height: 75%;
-    padding-top: 4rem;
+    height: 100%;
 }
 
 .section-1 a {
     color: #ffffff;
 }
 
-.section-1 p {
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin: 0;
-}
+.section-1 p {}
 
 .section-1 h1 {
     color: #FFFFFF;
-    font-size: 3rem;
-    margin-bottom: 5px;
 }
 
-.section-1 a {
-    font-size: 1.5rem;
-    padding: 10px;
-}
+.section-1 a {}
 
 .section-1 img {
     max-width: 80%;
@@ -46,9 +40,14 @@
 /* section 2 */
 
 .section-2 {
+    position: relative;
     width: 70%;
-    padding-top: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
+
+.section-2 p {}
 
 .section-2 a {
     color: #f1f952;
@@ -62,10 +61,12 @@
     .grid-2 {
         grid-template-columns: 1fr;
     }
+
     .section-1 {
         padding: 0;
         padding-top: 5rem;
     }
+
     .section-2 {
         padding: 0;
         padding-left: 1.5rem;
