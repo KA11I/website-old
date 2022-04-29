@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 50%;
-    top: 5%;
+    top: 10%;
     position: absolute;
 }
 
