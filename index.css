@@ -6,8 +6,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 50%;
-    top: 10%;
     position: absolute;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 
@@ -88,4 +89,5 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #020202;
     color: #ffffff;
+    display:flex;
 }
