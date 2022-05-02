@@ -38,7 +38,7 @@
 }
 
 
-.section-1 wrap-image {
+.wrap-image {
   position: relative;
   &::before,
   &::after {
