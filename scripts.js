@@ -13,6 +13,7 @@ function typewriter() {
 let changeImageBool = true;
 
 async function changeImage() {
+  changeImageBool = false;
   if (changeImageBool) {
     const images = [
       'crepe/Crepe3.png',
@@ -24,7 +25,6 @@ async function changeImage() {
       document.querySelector('#imgClickAndChange').src = img;
       await new Promise((resolve) => setTimeout(resolve, 1000));
     }
-    changeImageBool = false;
   }
 }
 
