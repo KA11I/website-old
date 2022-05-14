@@ -24,7 +24,6 @@ async function changeImage() {
     for (let img of images) {
       document.querySelector('#imgClickAndChange').src = img;
       await new Promise((resolve) => setTimeout(resolve, 1000));
-      window.navigator.vibrate(1000);
     }
   }
 }
