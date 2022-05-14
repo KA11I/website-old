@@ -22,4 +22,5 @@ async function changeImage() {
     await new Promise((resolve) => setTimeout(resolve, 1000));
   }
 }
-
+document.querySelector('#imgClickAndChange').onclick = changeImage
+changeImage()
