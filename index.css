@@ -26,6 +26,11 @@
 
 .section-1 p {}
 
+.section img {
+    width: 80%
+    height: 80%
+}
+
 .section-1 h1 {
     color: #FFFFFF;
 }
