@@ -30,4 +30,5 @@ async function changeImage() {
     }
 }
 
-document.querySelector('#imgClickAndChange').onclick(changeImage)
+document.querySelector('#imgClickAndChange').onclick = changeImage
+changeImage()
