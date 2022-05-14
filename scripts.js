@@ -13,8 +13,8 @@ function typewriter() {
 let changeImageBool = true;
 
 async function changeImage() {
-  changeImageBool = false;
   if (changeImageBool) {
+    changeImageBool = false;
     const images = [
       'crepe/Crepe3.png',
       'crepe/Crepe2.png',
