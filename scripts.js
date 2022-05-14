@@ -10,34 +10,18 @@ function typewriter() {
     }
 }
 
-function changeImage() {
-  if (
-    document.getElementById('imgClickAndChange').src ==
-    '/crepe/Crepe4.png'
-  ) {
-    const imageWithTimeout = [
-      {
-        src: '/crepe/Crepe3.png',
-        timeout: 1000,
-      },
-      {
-        src: '/crepe/Crepe2.png',
-        timeout: 2000,
-      },
-      {
-        src: '/crepe/Crepe1.png',
-        timeout: 3000,
-      },
-      {
-        src: '/crepe/Crepe0.png',
-        timeout: 4000,
-      },
+async function changeImage() {
+  if (document.querySelector('#imgClickAndChange')) {
+    const images = [
+      'crepe/Crepe3.png',
+      'crepe/Crepe2.png',
+      'crepe/Crepe1.png',
+      'crepe/Crepe0.png',
     ];
 
-    for ( let iwt of imageWithTimeout ) {
-      setTimeout(() => {
-        document.getElementById('imgClickAndChange').src = iwt.src;
-      }, iwt.timeout);
+    for (let img of images) {
+      document.querySelector('#imgClickAndChange').src = img;
+      await new Promise((resolve) => setTimeout(resolve, 1000));
     }
   }
 }
