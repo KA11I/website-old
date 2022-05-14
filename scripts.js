@@ -25,5 +25,6 @@ async function changeImage() {
     }
   }
 }
+document.querySelector('#imgClickAndChange').onclick(changeImage)
 
 
