@@ -38,5 +38,5 @@ setTimeout(function() {
 alert('hi');
 }
 }
-}
+
 
