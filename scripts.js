@@ -11,7 +11,7 @@ function typewriter() {
 }
 
 function changeImage() {
-    if (document.getElementById("imgClickAndChange").src == "ka11i.png"){
+    if (document.getElementById("imgClickAndChange").src == "https://www.ka11i.com/ka11i.png"){
         
         
         
