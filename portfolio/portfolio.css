@@ -27,3 +27,11 @@ body {
     color: #f1f952;
     text-decoration: none;
 }
+
+
+@media (max-width: 780px) {
+    .resume iframe {
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
