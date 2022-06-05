@@ -11,6 +11,7 @@ function typewriter() {
 }
 
 let changeImageBool = true;
+int clickcount = 3;
 
 async function changeImage() {
   if (changeImageBool) {
@@ -21,11 +22,9 @@ async function changeImage() {
       'crepe/Crepe1.png',
       'crepe/Crepe0.png',
     ];
-    for (let img of images) {
-      document.querySelector('#imgClickAndChange').src = img;
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      clickcount = clickcount - 1
+      document.querySelector('#imgClickAndChange').src = "crepe/Crepe" + clickcount + ".png";
     }
   }
-}
 
 document.querySelector('#imgClickAndChange').onclick = changeImage;
