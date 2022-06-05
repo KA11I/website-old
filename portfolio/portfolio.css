@@ -13,7 +13,8 @@ body {
 
 
 .spotlight {
-    display: block;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .spotlight h2{
