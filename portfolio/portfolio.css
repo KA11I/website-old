@@ -13,7 +13,7 @@ body {
 
 
 .resume iframe {
-    display: block;
+    display: float;
 }
 
 .resume {
