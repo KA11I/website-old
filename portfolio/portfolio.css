@@ -13,7 +13,8 @@ body {
 
 
 .spotlight {
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .spotlight iframe {
