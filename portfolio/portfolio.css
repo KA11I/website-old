@@ -11,10 +11,17 @@ body {
     color: #ffffff;
 }
 
+.iframe {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
 .resume {
     padding-left: 2rem;
     padding-top: 2rem;
 }
+
+
 
 .resume a {
     color: #f1f952;
