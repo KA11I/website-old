@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto%22);
 
 .grid-2 {
     display: grid;
@@ -12,9 +12,8 @@ body {
 }
 
 
-.spotlight {
-    display: block; 
-    justify-content: center;
+.spotlight iframe {
+    justify-content: space-between;
 }
 
 
@@ -36,4 +35,14 @@ body {
         max-width: 90%;
         max-height: 90%;
     }
+}
+
+.color {
+    color: #f1f952;
+    text-decoration: none;
+}
+
+a{
+    color: #f1f952;
+    text-decoration: none;
 }
