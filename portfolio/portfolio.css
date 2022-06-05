@@ -12,6 +12,10 @@ body {
 }
 
 
+.spotlight {
+    justify-content: center;
+}
+
 .spotlight iframe {
     justify-content: space-between;
 }
