@@ -12,6 +12,13 @@ body {
 }
 
 
+.spotlight {
+    style="padding-left: 40px; 
+    padding-right: auto; 
+    justify-content: center";
+}
+
+
 .spotlight iframe {
     justify-content: space-between;
 }
