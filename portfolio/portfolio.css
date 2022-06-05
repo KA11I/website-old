@@ -12,19 +12,8 @@ body {
 }
 
 
-.spotlight {
-    padding-left: auto;
-    padding-right: auto;
-}
-
-.spotlight h2{
-  text-align: center;
-}
-
 .spotlight iframe {
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
