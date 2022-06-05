@@ -16,6 +16,12 @@ body {
     justify-content: space-between;
 }
 
+
+.vids{
+    margin: 100px;
+}
+
+
 .resume {
     padding-left: 2rem;
     padding-top: 2rem;
