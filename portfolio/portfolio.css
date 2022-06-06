@@ -21,17 +21,10 @@ body {
 }
 
 
-.resume h3 {
+.resume {
     padding-left: 2rem;
     padding-top: 2rem;
 }
-
-
-.resume p {
-    padding-left: 2rem;
-    padding-top: 2rem;
-}
-    
 
 .resume a {
     color: #f1f952;
