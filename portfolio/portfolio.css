@@ -46,6 +46,10 @@ body {
 }
 
 @media (max-width: 780px) {
+    .spotlight iframe {
+        width: 95%;
+        height: 95%;
+    }
     .spotlight{
         display: block;
     }
