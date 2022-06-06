@@ -49,8 +49,8 @@ body {
 
 @media (max-width: 780px) {
     .spotlight iframe {
-        width: 95%;
-        height: 95%;
+        width: 99%;
+        height: 99%;
     }
 
     .spotlight {
