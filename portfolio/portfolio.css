@@ -12,8 +12,8 @@ body {
 }
 
 .spotlight {
-    padding-left: 2rem;
-    padding-top: 2rem;
+    padding-left: -2rem;
+    padding-top: -2rem;
     padding-right: auto; 
     padding-left: auto; 
     margin-left: auto; 
