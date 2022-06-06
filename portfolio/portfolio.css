@@ -25,7 +25,11 @@ body {
     padding-top: 2rem;
 }
 
-.resume {
+.resume p {
+    padding-left: 2rem;
+}
+
+.resume h3 {
     padding-left: 2rem;
 }
 
