@@ -21,9 +21,12 @@ body {
 }
 
 
+.home {
+    padding-top: 2rem;
+}
+
 .resume {
     padding-left: 2rem;
-    padding-top: 2rem;
 }
 
 .resume a {
