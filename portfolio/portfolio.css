@@ -50,7 +50,7 @@ body {
         width: 95%;
         height: 95%;
     }
-    .spotlight{display:center;}
+    .spotlight{display:block;}
 }
 
 .color {
