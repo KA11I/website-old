@@ -28,7 +28,7 @@ body {
 }
 
 .resume p {
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 .resume h3 {
@@ -53,6 +53,13 @@ body {
     .spotlight{
         display: block;
     }
+    .resume p {
+    padding-left: 1rem;
+}
+
+.resume h3 {
+    padding-left: 1rem;
+}
 }
 
 .color {
