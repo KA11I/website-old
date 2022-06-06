@@ -46,16 +46,7 @@ body {
 }
 
 @media (max-width: 780px) {
-    .gap{
-    width: 100%;
-    }
-.spotlight iframe {
-        width: 95%;
-        height: 95%;
-    }
-    .spotlight {
-            justify-content: center;
-    }
+
 }
 
 .color {
